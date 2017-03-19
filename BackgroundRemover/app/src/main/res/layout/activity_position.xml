@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abc.android.activity.PositionActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                android:paddingBottom="50dp"
+                android:gravity="center_horizontal" >
+                <ImageView 
+                    android:id="@+id/body"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/body"/>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                    android:id="@+id/bottomBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#fffffe"
+                    android:paddingTop="3dp" >
+
+                    
+                </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:gravity="center" >
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Save"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</RelativeLayout>
