@@ -1,6 +1,6 @@
 # BackgroundRemover
 
-![Alt text](https://github.com/dung8910/BackgroundRemover/blob/master/BackgroundRemover/BackgroundRemover_screenshot1.png =500)
+![Alt text](https://github.com/dung8910/BackgroundRemover/blob/master/BackgroundRemover/BackgroundRemover_screenshot1.png =500x)
 
 This is sample code of background remover tool for android.
 
